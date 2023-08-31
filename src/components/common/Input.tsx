@@ -1,5 +1,4 @@
 interface InputProps {
-
   width?: string;
   placeholder?: string;
   inputLabel?: string;
@@ -8,10 +7,9 @@ interface InputProps {
   type?: string;
   value?: string;
   name?: string;
-  onInputChange?: (event: React.ChangeEvent<HTMLInputElement>) => void | string | undefined,
+  onInputChange?: any;
 
 }
-
 
 export const Input = (props: InputProps) => {
   const {
@@ -23,7 +21,8 @@ export const Input = (props: InputProps) => {
     warning = "",
     type = "text",
     name = "",
-    value = "",
+    value,
+    name = "",
   } = props;
 
   return (
