@@ -10,6 +10,7 @@ interface CustomerCardProps {
   passwordConfirm: string;
 }
 
+
 export const CustomerCard = ({ clickBack }: { clickBack: (step: number, key: string) => void }) => {
   const postLogin = useMutation(
     'signUP',

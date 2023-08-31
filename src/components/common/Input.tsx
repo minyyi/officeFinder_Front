@@ -8,6 +8,7 @@ interface InputProps {
   value?: string;
   name?: string;
   onInputChange?: any;
+
 }
 
 export const Input = (props: InputProps) => {
@@ -19,7 +20,8 @@ export const Input = (props: InputProps) => {
     inputLabelPosition = "",
     warning = "",
     type = "text",
-    value = "",
+    name = "",
+    value,
     name = "",
   } = props;
 
