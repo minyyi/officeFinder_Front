@@ -39,13 +39,10 @@ export const Search = () => {
 };
 /* 기존의 스타일변경으로는 크기와 위치를 세부적으로 조정하기 힘들어 커스텀했습니다 */
 const SearchBoxContainer = styled.form`
-
-
   min-height: 230px;
   background-color: #fff;
   border-radius: 12px;
   z-index: 10;
-
 `;
 
 const ContourBox = styled.div`

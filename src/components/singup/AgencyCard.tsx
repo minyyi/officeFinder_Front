@@ -15,6 +15,7 @@ interface AgencyCardProps {
   businessNumber: string;
 }
 
+
 export const AgencyCard = ({ clickBack }: { clickBack: (step: number, key: string) => void }) => {
   // const { data } = useQuery("data", getAgencyApi);
   const postSignup = useMutation("signUP", signupAgencyApi, {
