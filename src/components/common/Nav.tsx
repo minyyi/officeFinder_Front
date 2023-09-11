@@ -1,8 +1,10 @@
+
 import { VscCircleFilled } from "react-icons/vsc";
 import { CgProfile } from "react-icons/cg";
 import { PiBellRingingBold } from "react-icons/pi";
 import { useNavigate } from "react-router-dom";
 import { Button } from "./Button";
+
 
 export const Nav = () => {
   const navigate = useNavigate();
@@ -24,6 +26,7 @@ export const Nav = () => {
         </div>
         <div className="flex-none">
           <div className="m-3">
+
             <span className="text-base font-bold text-primary lg:inline md:hidden sm:hidden">c/a</span>
           </div>
           <div className="m-3">
