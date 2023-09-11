@@ -30,15 +30,14 @@ export const CustomerCard = ({ clickBack }: { clickBack: (step: number, key: str
   // console.log({ data });
 
   const [signup, setSignup] = useState<CustomerCardProps>({
-    name: "",
     email: "",
+    name: "",
     password: "",
     passwordConfirm: "",
   });
 
   const handleFormData = (e: React.ChangeEvent<HTMLInputElement>) => {
     let { name, value } = e.target;
-    console.log({ name, value });
     setSignup(prev => {
       return { ...prev, [name]: value };
     });
