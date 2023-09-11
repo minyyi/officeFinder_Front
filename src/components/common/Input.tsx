@@ -20,7 +20,6 @@ export const Input = (props: InputProps) => {
     inputLabelPosition = "",
     warning = "",
     type = "text",
-    name = "",
     value,
     name = "",
   } = props;

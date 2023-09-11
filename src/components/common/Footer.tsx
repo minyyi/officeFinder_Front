@@ -1,11 +1,13 @@
-import { AiFillGithub } from 'react-icons/ai'
-import { RxNotionLogo } from 'react-icons/rx'
-import { BsYoutube } from 'react-icons/bs'
+
+import { AiFillGithub } from "react-icons/ai";
+import { RxNotionLogo } from "react-icons/rx";
+import { BsYoutube } from "react-icons/bs";
+
 
 export const Footer = () => {
   return (
     <>
-      <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
+      <footer className="footer footer-center mt-20 p-10 bg-base-200 text-base-content rounded">
         <div className="grid grid-flow-col gap-4">
           <a className="link link-hover normal-case text-xl">officeFinder</a>
         </div>

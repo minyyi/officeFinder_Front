@@ -74,6 +74,7 @@ export const Nav = () => {
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
               <div className="rounded-full">
                 <PiBellRingingBold className="w-7 h-7" />
+
                 <VscCircleFilled className="absolute text-primary top-[0] right-[0] text-xl" />
               </div>
             </label>
@@ -90,13 +91,11 @@ export const Nav = () => {
               <li>
                 <a>예약이 거절되었습니다. </a>
               </li>
-              <li className="justify-center hover:bg-white">
-                <Button
-                  text={"더보기 +"}
-                  style={"btn btn-outline btn-accent w-full m-2 text-base "}
-                  clickHandler={clickMoreButton}
-                ></Button>
-              </li>
+              <div className="w-full">
+                <Button style={"btn btn-outline btn-primary w-full text-base"} clickHandler={clickMoreButton}>
+                  <p>더보기+</p>
+                </Button>
+              </div>
             </ul>
           </div>
         </div>
